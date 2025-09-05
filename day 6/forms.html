@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Registration</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" required><br>
+            <label for="age">Age:</label>
+            <input type="number" id="age" min="21" max="60"><br>
+            <label for="profile">gmail link:</label>
+            <input type="url" id="profile" required><br>
+            <label for="job">Are you fresher ?</label>
+            <input type="checkbox" name="" id="job"><br>
+            <label for="opportunity">Are you looking for a job?</label>
+            <input type="checkbox" name="" id="opportunity"><br>
+            <label for="gender:">Gender:-</label>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female"><br>
+            <label for="dob">DOB</label>
+            <input type="date" name="" id="dob"><br>
+            <label for="state">Choose State:</label>
+            <select id="">state
+                <option value="">select below</option>
+                <option value="Odisha">Odisha</option>
+                <option value="mp">Madhya Pradesh</option>
+                <option value="mp">Telangana</option>
+                <option value="mp">Jharkhand</option>
+                <option value="mp">Uttar Pradesh</option>
+                <option value="mp">Rajastan</option>
+                <option value="mp">Mahrastra</option>
+                <option value="mp">Tamilnadu</option>
+                <option value="mp">Karnataka</option>
+                <option value="mp">Himachal Pradesh</option>
+                <option value="mp">Jammu&Kashmir</option>
+                <option value="mp">Chhatishgarh</option>
+                <option value="mp">OTHER</option>
+
+            </select><br>
+            <!--datalist-->
+            <label for="degree"> Choose Degree:</label>
+            <input list="Inp" name="" id="degree" required>
+            <datalist id="Inp">
+                <option value="B.tech"></option>
+                <option value="M.tech"></option>
+                <option value="Bca"></option>
+            </datalist><br>
+            <label for="Uplord image">Choose image</label>
+            <input type="file" name="" id="" required><br>
+            <label for="Feedback">Feedback:</label>
+            <textarea name="" id="" cols="50" rows="5" required></textarea>
+            <button>submit</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>
